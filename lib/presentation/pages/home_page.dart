@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:http_ease/features/request/presentation/request_editor.dart';
 import 'package:http_ease/features/workspace/presentation/side_nav_drawer.dart';
 import 'package:http_ease/presentation/widgets/base_layout.dart';
 
@@ -10,7 +11,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: BaseLayout(
         sidebar: const SideNavDrawer(),
-        content: // TODO: const RequestEditor(),
+        content: const RequestEditor(),
         // TODO: rigthPanel: const ResponseViewer(),
       ),
     );
